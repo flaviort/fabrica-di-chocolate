@@ -29,6 +29,39 @@ $(document).ready(function() {
 	});
 	*/
 
+	// cards slider
+	var cards_slider = new Swiper ('.cards-slider', {
+		slidesPerView: 1.5,
+		loop: true,
+		centeredSlides: true,
+		simulateTouch: true,
+		allowTouchMove: true,
+		effect: 'slide',
+		spaceBetween: 15,
+		slideToClickedSlide: true,
+		autoplay: {
+			delay: 2000,
+		},
+		breakpoints: {
+			576: {
+				slidesPerView: 3,
+				spaceBetween: 20,
+			},
+			768: {
+				slidesPerView: 4,
+				spaceBetween: 20,
+			},
+			993: {
+				slidesPerView: 5,
+				spaceBetween: 25,
+			},
+			1201: {
+				slidesPerView: 6,
+				spaceBetween: 30,
+			}
+		}
+	});
+
 	// testimonials slider
 	var testimonials_slider = new Swiper ('.testimonials-slider', {
 		slidesPerView: 1,

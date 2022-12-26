@@ -22,6 +22,65 @@ body.home {
 
         .cards-slider {
             margin: 3rem auto;
+
+            .swiper-slide {
+                height: auto;
+
+                &.swiper-slide-active {
+                    .box {
+                        background-color: $red;
+                    }
+                }
+
+                .box {
+                    display: block;
+                    background-color: $brown-dark;
+                    padding: 1.5rem;
+                    border-radius: .5rem;
+                    height: calc(100% - 3rem);
+                    transition: .3s;
+                    color: $beige;
+
+                    @media #{$mq-sm-min} {
+                        height: calc(100% - 4rem);
+                        padding: 2.5rem 2rem;
+                        border-radius: 1rem;
+                    }
+
+                    .icon {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        width: auto;
+                        height: 5rem;
+                        margin: auto;
+                    }
+
+                    .line {
+                        display: block;
+                        position: relative;
+                        width: 80%;
+                        height: 1px;
+                        background-color: $beige;
+                        margin: 3rem auto 2.5rem auto;
+
+                        svg {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            display: block;
+                            width: 1rem;
+                            height: 1rem;
+                        }
+                    }
+
+                    p {
+
+                    }
+                }
+            }
         }
     }
 

@@ -60,11 +60,131 @@
 
 								</h2>
 
-								<div class="cards-slider swiper-container wow fadeIn">
+								<div class="cards-slider swiper-container text-medium wow fadeIn">
 									<div class="swiper-wrapper">
 
 										<div class="swiper-slide">
 											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/fondue.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Fondue</strong>
+												</p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/acai.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Açaí</strong>
+												</p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/gelato.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Gelato</strong>
+												</p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/salada-di-frutas.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Salada di frutas</strong>
+												</p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/espeto-di-chocolate.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Espeto di chocolate</strong>
+												</p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/chocolate-quente.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Chocolate quente</strong>
+												</p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="box">
+
+												<div class="icon">
+													<?php echo file_get_contents("assets/svg/di-shake.svg"); ?>
+												</div>
+
+												<div class="line">
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+												</div>
+
+												<p>
+													<strong>Di shake</strong>
+												</p>
 
 											</div>
 										</div>
