@@ -1,6 +1,9 @@
+.text-smaller,
 .text-small,
 .text-medium,
-.text-medium-big {
+.text-medium-big,
+.text-big,
+.text-bigger {
 	font-weight: inherit;
 	font-variant: no-common-ligatures;
 	letter-spacing: normal;
@@ -27,6 +30,11 @@
 	}
 }
 
+.text-smaller {
+	font-size: 10px;
+	line-height: 2;
+}
+
 .text-small {
 	font-size: 14px;
 	line-height: 1.6;
@@ -35,35 +43,64 @@
 .text-medium {
 	font-size: 16px;
 	line-height: 1.6;
-
-	@media #{$mq-sm-min} {
-		font-size: 18px;
-	}
-
-	@media #{$mq-lg-min} {
-		font-size: 20px;
-		line-height: 1.4;
-	}
 }
 
 .text-medium-big {
 	font-size: 18px;
 	line-height: 1.6;
 
-	@media #{$mq-xs-min} {
+	@media #{$mq-md-min} {
 		font-size: 20px;
-		line-height: 1.4;
+	}
+}
+
+.text-big {
+	font-size: 28px;
+	line-height: 1.2;
+
+	@media #{$mq-xs-min} {
+		font-size: 30px;
 	}
 
 	@media #{$mq-sm-min} {
-		font-size: 22px;
+		font-size: 32px;
 	}
 
 	@media #{$mq-md-min} {
-		font-size: 24px;
+		font-size: 34px;
 	}
 
 	@media #{$mq-lg-min} {
+		font-size: 36px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 40px;
+	}
+}
+
+.text-bigger {
+	font-size: 24px;
+	line-height: 1.2;
+
+	@media #{$mq-xs-min} {
 		font-size: 26px;
+	}
+
+	@media #{$mq-sm-min} {
+		font-size: 28px;
+	}
+
+	@media #{$mq-md-min} {
+		font-size: 32px;
+	}
+
+	@media #{$mq-lg-min} {
+		font-size: 36px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 40px;
+		line-height: 1;
 	}
 }

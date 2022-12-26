@@ -1,3 +1,382 @@
 body.home {
-    
+    background-color: $beige;
+
+    #banner {
+
+    }
+
+    #numbers {
+
+    }
+
+    #about {
+
+    }
+
+    #cards {
+        text-align: center;
+
+        .lozenge-title {
+            color: $brown-dark;
+        }
+
+        .cards-slider {
+            margin: 3rem auto;
+        }
+    }
+
+    #testimonials {
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+
+        @media #{$mq-sm-min} {
+            padding-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        
+        .bg {
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: calc(100% - 4rem);
+            background: url(../img/bg-texture.jpg) center center / cover no-repeat;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            color: $beige;
+
+            .testimonials-slider {
+                display: block;
+                margin-top: 2rem;
+
+                @media #{$mq-sm-min} {
+                    margin-top: 3rem;
+                }
+
+                .swiper-slide {
+                    height: auto;
+
+                    &.swiper-slide-active {
+                        .box {
+                            background-color: $red;
+                            
+                            .wrapper {
+                                .desc {
+                                    pointer-events: all;
+                                }
+                            }
+                        }
+                    }
+
+                    .box {
+                        display: block;
+                        background-color: $brown-light;
+                        padding: 1.5rem;
+                        border-radius: .5rem;
+                        height: calc(100% - 3rem);
+                        transition: .3s;
+
+                        @media #{$mq-sm-min} {
+                            height: calc(100% - 4rem);
+                            padding: 2rem;
+                            border-radius: 1rem;
+                        }
+
+                        .wrapper {
+                            position: relative;
+                            height: 100%;
+
+                            .desc {
+                                position: relative;
+                                display: block;
+                                margin-top: 1.25rem;
+                                pointer-events: none;
+
+                                @media #{$mq-sm-min} {
+                                    margin-top: 2rem;
+                                }
+
+                                &:hover,
+                                &:focus {
+                                    .text {
+                                        span {
+                                            background-size: 100% 1px;
+                                        }
+                                    }
+
+                                    .more {
+                                        &:before {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 6;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                }
+
+                                .more {
+                                    display: inline-block;
+                                    margin-top: 1rem;
+                                    margin-bottom: 2rem;
+                                    position: relative;
+
+                                    @media #{$mq-sm-min} {
+                                        margin-top: 1.5rem;
+                                    }
+
+                                    &:before {
+                                        content: "";
+                                        position: absolute;
+                                        bottom: 0;
+                                        left: 0;
+                                        width: 0;
+                                        height: 1px;
+                                        background-color: $white;
+                                        transition: .1s;
+                                        transition-delay: .3s;
+                                    }
+                                }
+                            }
+
+                            .line {
+                                display: block;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 1px;
+                                background-color: $beige;
+
+                                svg {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    display: block;
+                                    width: 1rem;
+                                    height: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #headline {
+        text-align: center;
+        padding: 1rem 0;
+
+        @media #{$mq-sm-min} {
+            padding: 2rem 0;
+        }
+
+        .line {
+            position: relative;
+            display: block;
+            width: 25rem;
+            max-width: 80%;
+            height: 1px;
+            background-color: $brown-dark;
+            margin: 1.5rem auto;
+
+            @media #{$mq-sm-min} {
+                margin: 2rem auto;
+            }
+
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 1rem;
+                height: 1rem;
+                color: $brown-dark;
+            }
+        }
+
+        .text-bigger {
+            font-weight: $light;
+            display: block;
+            width: 40rem;
+            max-width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            color: $brown-dark;
+            line-height: 1.2;
+        }
+    }
+
+    #map {
+        text-align: center;
+        padding: 2rem 0 1.25rem 0;
+
+        @media #{$mq-sm-min} {
+            padding: 3rem 0 2rem 0;
+        }
+
+        @media #{$mq-md-min} {
+            padding-top: 4rem;
+        }
+
+        @media #{$mq-lg-min} {
+            padding: 5rem 0 3rem 0;
+        }
+
+        @media #{$mq-xl-min} {
+            padding: 6rem 0 4rem 0;
+        }
+
+        .lozenge-title {
+            color: $brown-dark;
+        }
+
+        .map {
+            display: block;
+            margin: 2rem auto 1.5rem auto;
+            width: 110%;
+            margin-left: -5%;
+            max-width: none;
+            color: $brown-dark;
+
+            @media #{$mq-sm-min} {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            @media #{$mq-lg-min} {
+                margin-bottom: 2rem;
+            }
+
+            @media #{$mq-xl-min} {
+                margin: 3rem auto 2rem auto;
+                width: 90%;
+            }
+
+            @media #{$mq-2xl-min} {
+                width: 80%;
+            }
+        }
+
+        .red-button {
+
+        }
+
+        .hidden {
+            display: none;
+        }
+    }
+
+    #contact {
+        .chocolate {
+            display: block;
+            width: 200%;
+            max-width: none;
+            background-color: $brown-dark;
+            color: $beige;
+            margin-left: -50%;
+
+            @media #{$mq-sm-min} {
+                width: 100%;
+                max-width: 100%;
+                margin: 0;
+            }
+        }
+
+        .content {
+            background: rgb(67,34,21);
+            background: -moz-linear-gradient(180deg, rgba(67,34,21,1) 0%, rgba(0,0,0,1) 100%);
+            background: -webkit-linear-gradient(180deg, rgba(67,34,21,1) 0%, rgba(0,0,0,1) 100%);
+            background: linear-gradient(180deg, rgba(67,34,21,1) 0%, rgba(0,0,0,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#432215",endColorstr="#000000",GradientType=1);
+
+            @media #{$mq-md-min} {
+                padding-top: 1rem;
+            }
+
+            @media #{$mq-lg-min} {
+                padding-top: 3rem;
+            }
+
+            .container {
+                .lozenge-title {
+                    color: $beige;
+                    margin: 2rem auto;
+
+                    @media #{$mq-sm-min} {
+                        margin: 3rem auto;
+                    }
+                }
+
+                form {
+                    display: block;
+                    padding-bottom: 1rem;
+
+                    @media #{$mq-md-min} {
+                        padding-bottom: 2rem;
+                    }
+
+                    @media #{$mq-lg-min} {
+                        padding: 1rem 0 3rem 0;
+                    }
+
+                    .desc {
+                        color: $beige;
+
+                        @media #{$mq-md-min} {
+                            padding-top: .5rem;
+                        }
+
+                        @media #{$mq-lg-min} {
+                            padding-top: 1.5rem;
+                        }
+                    }
+
+                    .right {
+                        .form-line {
+                            @media #{$mq-md-min} {
+                                height: calc(100% - 1.5rem);
+                            }
+
+                            .input-wrap {
+                                @media #{$mq-md-min} {
+                                    height: 100%;
+                                }
+
+                                .textarea {
+                                    @media #{$mq-md-min} {
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    .red-button {
+                        margin-top: 1rem;
+                        width: 100%;
+
+                        @media #{$mq-sm-min} {
+                            width: auto;
+                            margin-top: 1.25rem;
+                        }
+
+                        @media #{$mq-md-min} {
+                            margin-top: 0;
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -16,16 +16,17 @@ $mq-2xl-max: "only screen and (max-width: 1600px)";
 $mq-landscape: "screen and (orientation:landscape)";
 
 // fonts
-//$bebas:                 'Bebas Neue', sans-serif;
-//$open-sans:             'Open Sans', sans-serif;
+$poppins:                 'Poppins', sans-serif;
 
 // weights
+$thin:                  100;
+$extra-light:           200;
 $light: 				300;
 $regular: 				400;
 $medium: 	    		500;
 $semi-bold: 			600;
 $bold: 					700;
-$extra-bold: 			800;
+$bolder: 			    800;
 
 // colors
 $white:					#fff;
@@ -39,7 +40,11 @@ $gray-darker:			#222;
 $gray-darkest:			#111;
 $black:					#000;
 
-$red:                   #ff6744;
+$beige:                 #F0F0E6;
+$brown-light:           #A3775C;
+$brown-dark:            #432215;
+$brown-darker:          #19100D;
+
+$red:                   #CF1113;
+$red-dark:              #b60002;
 $green:                 #d2ff5a;
-$purple-light:          #6337ff;
-$purple-dark:           #13132e;

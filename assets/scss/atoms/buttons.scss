@@ -1,0 +1,43 @@
+.red-button {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    background-color: $red;
+    color: $white;
+    font-weight: $bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border-radius: 15rem;
+    transition: .3s;
+    padding: 1.15rem 2rem;
+    text-align: center;
+    cursor: pointer;
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.5rem 5rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $red-dark;
+        text-decoration: underline;
+    }
+}
+
+.hover-multiple-lines {
+    display: inline;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s;
+    background-position: 0 100%;
+
+    &:hover,
+    &:focus {
+        background-size: 100% 1px;
+    }
+}

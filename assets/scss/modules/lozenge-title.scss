@@ -1,0 +1,51 @@
+.lozenge-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    gap: .75rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    @media #{$mq-sm-min} {
+        column-gap: 1.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    @media #{$mq-lg-min} {
+        column-gap: 2rem;
+    }
+
+    svg {
+        display: block;
+        width: 1.25rem;
+        height: 1.25rem;
+        animation: rotation 5s linear infinite;
+
+        @media #{$mq-sm-min} {
+            animation: rotation 5s reverse linear infinite;
+        }
+
+        @media #{$mq-lg-min} {
+            width: 1.75rem;
+            height: 1.75rem;
+        }
+
+        &:last-child {
+            display: none;
+            animation: rotation 5s linear infinite;
+
+            @media #{$mq-sm-min} {
+                display: block;
+            }
+        }
+    }
+
+    span {
+        font-weight: $bold;
+        text-decoration: underline;
+    }
+}

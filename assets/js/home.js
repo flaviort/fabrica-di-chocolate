@@ -8,6 +8,7 @@ $(document).ready(function() {
 	});
 
 	// animated numbers
+	/*
 	var waypoint = new Waypoint({
 		element: $('.purple-box'),
 		handler: function(direction) {
@@ -26,11 +27,37 @@ $(document).ready(function() {
 		},
 		offset: '90%'
 	});
+	*/
+
+	// testimonials slider
+	var testimonials_slider = new Swiper ('.testimonials-slider', {
+		slidesPerView: 1,
+		//loop: true,
+		centeredSlides: true,
+		simulateTouch: true,
+		allowTouchMove: true,
+		effect: 'slide',
+		spaceBetween: 15,
+		slideToClickedSlide: true,
+		autoplay: {
+			delay: 9000,
+		},
+		breakpoints: {
+			576: {
+				spaceBetween: 20,
+				slidesPerView: 2,
+			},
+			1201: {
+				spaceBetween: 30,
+				slidesPerView: 3,
+			}
+		}
+	});
 
 	// mask for the phone number
 	var cleave = new Cleave("input[type='tel']", {
-		blocks: [0, 2, 4, 4],
-		delimiters: ['(', ') ', ' - ',' '],
+		blocks: [0, 2, 5, 4],
+		delimiters: ['(', ') ', '-',' '],
 		numericOnly: true,
 		delimiterLazyShow: true
 	});
