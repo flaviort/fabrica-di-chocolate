@@ -7,12 +7,34 @@ $(document).ready(function() {
 		};
 	});
 
+	// top banner slider
+	var top_banner_slider = new Swiper ('.top-banner-slider', {
+		slidesPerView: 1,
+		allowTouchMove: true,
+		disableOnInteraction: true,
+		autoHeight: false,
+		calculateHeight: false,
+		loop: true,
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true
+		},
+		autoplay: {
+			delay: 3000,
+		},
+		speed: 600,
+		pagination: {
+			el: '#banner .top-banner-nav',
+			type: 'bullets',
+			clickable: true,
+		},
+	});
+
 	// animated numbers
-	/*
 	var waypoint = new Waypoint({
-		element: $('.purple-box'),
+		element: $('#numbers .box'),
 		handler: function(direction) {
-			$('.counter').each(function () {
+			$('#numbers .box .text-bigger span').each(function () {
 				$(this).prop('Counter', 0).animate({
 						Counter: $(this).data('value')
 					}, {
@@ -27,7 +49,6 @@ $(document).ready(function() {
 		},
 		offset: '90%'
 	});
-	*/
 
 	// cards slider
 	var cards_slider = new Swiper ('.cards-slider', {
@@ -40,7 +61,7 @@ $(document).ready(function() {
 		spaceBetween: 15,
 		slideToClickedSlide: true,
 		autoplay: {
-			delay: 2000,
+			delay: 2100,
 		},
 		breakpoints: {
 			576: {
@@ -86,6 +107,23 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+	// show / hide map list
+	$('#map .toggle .open').click(function(){
+		$(this).fadeOut(function(){
+			$('#map .toggle .close').fadeIn();
+		});
+
+		$('#map .hidden').slideDown();
+	})
+
+	$('#map .toggle .close').click(function(){
+		$(this).fadeOut(function(){
+			$('#map .toggle .open').fadeIn();
+		});
+		
+		$('#map .hidden').slideUp();
+	})
 
 	// mask for the phone number
 	var cleave = new Cleave("input[type='tel']", {

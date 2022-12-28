@@ -1,3 +1,154 @@
 #top-menu {
-    
+    padding: 1.25rem 0;
+
+    @media #{$mq-sm-min} {
+        padding: 2rem 0;
+    }
+
+    @media #{$mq-xl-min} {
+        padding: 3rem 0;
+    }
+
+    .col-12 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media #{$mq-lg-min} {
+            padding: 0 2rem;
+        }
+
+        @media #{$mq-2xl-min} {
+            display: block;
+            text-align: center;
+        }
+
+        .menu {
+            ul {
+                color: $white;
+
+                @media #{$mq-xl-min} {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    column-gap: 1.25rem;
+                }
+
+                @media #{$mq-2xl-min} {
+                    column-gap: 2rem;
+                }
+
+                li {
+                    &.desktop {
+                        display: none;
+
+                        @media #{$mq-2xl-min} {
+                            display: block;
+                        }
+                    }
+
+                    &.mobile {
+                        display: block;
+                        
+                        @media #{$mq-2xl-min} {
+                            display: none;
+                        }
+                    }
+
+                    a {
+                        font-weight: $bold;
+                        text-transform: uppercase;
+
+                        &:not(.logo) {
+                            display: none;
+
+                            @media #{$mq-xl-min} {
+                                display: inline-block;
+                            }
+                        }
+
+                        &.logo {
+                            display: block;
+                            width: 10rem;
+                            transition: .3s;
+                            transform: translateY(.25rem);
+
+                            @media #{$mq-sm-min} {
+                                width: 11rem;
+                                transform: none;
+                            }
+
+                            @media #{$mq-xl-min} {
+                                width: 9rem;
+                            }
+
+                            @media #{$mq-2xl-min} {
+                                width: 11rem;
+                            }
+
+                            &:hover,
+                            &:focus {
+                                color: $beige;
+                                opacity: .8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            column-gap: 1rem;
+
+            @media #{$mq-2xl-min} {
+                position: absolute;
+                z-index: 2;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 2rem;
+            }
+
+            .hollow-button {
+                display: none;
+                padding: 1rem;
+                font-size: .85rem;
+                text-decoration: none;
+
+                @media #{$mq-sm-min} {
+                    display: inline-block;
+                }
+
+                @media #{$mq-2xl-min} {
+                    padding: 1rem 2rem;
+                }
+            }
+
+            .open-fs {
+                display: flex;
+                min-width: 3rem;
+                width: 3rem;
+                height: 3rem;
+                align-items: center;
+                justify-content: center;
+                color: $white;
+                box-shadow: inset 0 0 0 1px $white;
+                border-radius: 50%;
+                padding: .95rem;
+                transition: .3s;
+
+                @media #{$mq-xl-min} {
+                    display: none;
+                }
+
+                &:hover,
+                &:focus {
+                    background-color: $white;
+                    color: $brown-dark;
+                }
+            }
+        }
+    }
 }

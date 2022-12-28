@@ -25,7 +25,7 @@
                             </p>
                             
                             <p>
-                                Email: <a href="mailto:fabrica@fabrica.com.br" class="hover-multiple-lines">fabrica@fabrica.com.br</a> <br />
+                                <a href="mailto:fabrica@fabricadichocolateoficial.com.br" class="hover-multiple-lines">fabrica@fabricadichocolateoficial.com.br</a> <br />
                                 Fone: 41 0000.0000 | 0000.0000 <br />
                                 WhatsApp: (41) 9 0000.0000
                             </p>
@@ -76,7 +76,7 @@
                         <div class="col-lg-9 col-xl-10 right">
 
                             <p class="text-smaller">
-                                Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.t doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless fill.
+                                A marca Fábrica di Chocolate é uma marca criada em 2004 e todos os seus direitos são reservados. Todas as informações incluídas neste site, como textos, fotos, logotipo e as imagens da Fábrica di Chocolate, são de propriedade exclusiva e protegidas pelas leis de direitos autorais. A modificação destes materiais, sua inclusão em outros websites e o seu envio e publicação em outros meios digitais e físicos, ou de qualquer outra forma dispor de tais materiais sem a devida autorização, estando sujeito às responsabilidades e sanções.
                             </p>
 
                         </div>

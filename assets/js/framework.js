@@ -82,3 +82,19 @@ wow = new WOW({
 
 // init rellax
 var rellax = new Rellax('.rellax');
+
+// open / close fs menu
+$('.open-fs').click(function(){
+	$('body').toggleClass('fs-menu-open');
+	$('#fs-menu').css('opacity', '1');
+});
+
+$('#fs-menu .bg, .close-fs-menu, #fs-menu a').click(function(){
+	$('body').toggleClass('fs-menu-open');
+});
+
+$('#fs-menu .has-sub').click(function(event){
+	event.stopPropagation();
+	$(this).toggleClass('open');
+	$(this).children('.sub').slideToggle();
+});

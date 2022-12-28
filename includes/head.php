@@ -12,14 +12,14 @@
 	<title>Fábrica di Chocolate</title>
 
 	<!-- google -->
-	<meta name="description" content="O Fábrica di Chocolate ...................."/>
+	<meta name="description" content="A Fábrica Di Chocolate foi criada a partir do conceito “fondue express”. A empresa desenvolve produtos à base de chocolates e frutas selecionadas a preços acessíveis a todas as classes sociais e com a conveniência do serviço “fast-food”."/>
 	<link rel="canonical" href="<?php echo($siteUrl); ?>" />
 		
 	<!-- facebook -->
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Fábrica di Chocolate" />
-	<meta property="og:description" content="O Fábrica di Chocolate ...................." />
+	<meta property="og:description" content="A Fábrica Di Chocolate foi criada a partir do conceito “fondue express”. A empresa desenvolve produtos à base de chocolates e frutas selecionadas a preços acessíveis a todas as classes sociais e com a conveniência do serviço “fast-food”." />
 	<meta property="og:url" content="<?php echo($siteUrl); ?>/" />
 	<meta property="og:site_name" content="Fábrica di Chocolate" />
 	<meta property="og:image" content="<?php echo($siteUrl); ?>/assets/img/og-image.jpg" />

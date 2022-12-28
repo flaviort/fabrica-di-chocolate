@@ -1,7 +1,6 @@
 .text-smaller,
 .text-small,
 .text-medium,
-.text-medium-big,
 .text-big,
 .text-bigger {
 	font-weight: inherit;
@@ -45,37 +44,12 @@
 	line-height: 1.6;
 }
 
-.text-medium-big {
+.text-big {
 	font-size: 18px;
 	line-height: 1.6;
 
 	@media #{$mq-md-min} {
 		font-size: 20px;
-	}
-}
-
-.text-big {
-	font-size: 28px;
-	line-height: 1.2;
-
-	@media #{$mq-xs-min} {
-		font-size: 30px;
-	}
-
-	@media #{$mq-sm-min} {
-		font-size: 32px;
-	}
-
-	@media #{$mq-md-min} {
-		font-size: 34px;
-	}
-
-	@media #{$mq-lg-min} {
-		font-size: 36px;
-	}
-
-	@media #{$mq-xl-min} {
-		font-size: 40px;
 	}
 }
 

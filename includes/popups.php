@@ -1,7 +1,7 @@
 <div id="contact-success" class="popup">
     <div class="wrap">
 
-        <h3 class="title-big title">
+        <h3 class="text-bigger title">
             Sucesso!
         </h3>
 
@@ -10,16 +10,8 @@
             Entraremos em contato o mais breve possível.
         </p>
 
-        <button class="" onclick="$.fancybox.close()">
-										
-            <span class="">
-                Fechar
-            </span>
-
-            <span class="circle">
-                <?php echo file_get_contents("assets/svg/close.svg"); ?>
-            </span>
-
+        <button class="hollow-button" onclick="$.fancybox.close()">
+            Fechar
         </button>
 
     </div>
