@@ -142,11 +142,11 @@
 										<div class="wrapper">
 
 											<p class="text-bigger">
-												<span data-value="1023">1023</span>
+												+<span data-value="18">18</span>
 											</p>
 
 											<p class="text-medium">
-												Lorem ipsum o lipsum ipsasda sum ogddg a.
+												Mais de 18 anos de experiência no mercado
 											</p>
 
 										</div>
@@ -168,11 +168,11 @@
 										<div class="wrapper">
 
 											<p class="text-bigger">
-												<span data-value="703">703</span>
+												+<span data-value="150">150</span>
 											</p>
 
 											<p class="text-medium">
-												Lorem ipsum o lipsum ipsasda sum ogddg a.
+												Mais de 150 cascatas de chocolate espalhadas pelo Brasil
 											</p>
 
 										</div>
@@ -229,7 +229,7 @@
 										<?php echo file_get_contents("assets/svg/marca-brasileira.svg"); ?>
 
 										<p>
-											<b>Trabalhando com felicidade desde 2004</b>
+											<b>Desde 2004</b>
 										</p>
 
 									</div>
@@ -240,7 +240,7 @@
 
 									<p class="text-bigger wow fadeInUp">
 										<strong>
-											a fábrica não <br />
+											A fábrica não <br />
 											para. 18 anos <br />
 											a todo vapor!
 										</strong>
@@ -721,7 +721,7 @@
 								</div>
 
 								<h3 class="text-bigger wow fadeIn">
-									Não sei a fórmula da felicidade mas deve conter chocolate :)
+									Não sei a fórmula da felicidade, mas deve conter chocolate :)
 								</h3>
 
 								<div class="line wow fadeIn">
@@ -798,9 +798,9 @@
 
 									</h2>
 
-									<form action="https://formsubmit.co/fabrica@fabricadichocolateoficial.com.br" id="contact-form" method="post" class="text-medium">
+									<form action="https://formsubmit.co/adm@fabricadichocolateoficial.com.br" id="contact-form" method="post" class="text-medium">
 
-										<input type="hidden" name="_next" value="<?php echo($siteUrl); ?>/#contact-success">
+										<input type="hidden" name="_next" value="https://www.fabricadichocolateoficial.com.br/#contact-success">
 										<input type="text" name="_honey" style="display: none">
 										<input type="hidden" name="_captcha" value="false">
 										<input type="hidden" name="_template" value="box">
@@ -813,7 +813,7 @@
 												<div class="form-line wow fadeInUp">
 													<div class="input-wrap">
 														
-														<select name="Tipo" required class="input select">
+														<select name="Motivo do contato" required class="input select">
 															<option value="" selected disabled>* Motivo do contato</option>
 															<option value="Quero ser um franqueado">Quero ser um franqueado</option>
 															<option value="Elogios / Reclamações">Elogios / Reclamações</option>
@@ -854,7 +854,7 @@
 											<div class="col-md-6 right">
 												<div class="form-line wow fadeIn">
 													<div class="input-wrap">
-														<textarea name="* Mensagem" required class="input textarea" placeholder="* Mensagem"></textarea>
+														<textarea name="Mensagem" required class="input textarea" placeholder="* Mensagem"></textarea>
 													</div>
 												</div>
 											</div>

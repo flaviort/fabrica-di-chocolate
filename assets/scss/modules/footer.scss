@@ -9,6 +9,30 @@
 
     .top {
         .row > div {
+            &.first {
+                P {
+                    @media #{$mq-sm-min} {
+                        padding-right: 1rem;
+                    }
+                }
+            }
+
+            &.third {
+                p {
+                    @media #{$mq-lg-min} {
+                        padding-left: 1rem;
+                    }
+
+                    @media #{$mq-xl-min} {
+                        padding-left: 3rem;
+                    }
+
+                    @media #{$mq-2xl-min} {
+                        padding-left: 6rem;
+                    }
+                }
+            }
+
             .text-medium-big {
                 display: block;
                 margin-bottom: .75rem;

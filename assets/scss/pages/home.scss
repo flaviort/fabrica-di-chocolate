@@ -300,11 +300,12 @@ body.home {
             background-color: $beige;
             color: $black;
             margin-left: -50%;
+            margin-top: -3px;
 
             @media #{$mq-sm-min} {
                 width: 100%;
                 max-width: 100%;
-                margin: 0;
+                margin: -3px 0 0 0;
             }
         }
 
@@ -916,11 +917,12 @@ body.home {
             background-color: $brown-dark;
             color: $beige;
             margin-left: -50%;
+            margin-top: -3px;
 
             @media #{$mq-sm-min} {
                 width: 100%;
                 max-width: 100%;
-                margin: 0;
+                margin: -3px 0 0 0;
             }
         }
 

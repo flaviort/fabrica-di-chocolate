@@ -6,7 +6,7 @@
                 <div class="top text-medium">
                     <div class="row">
 
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp">
+                        <div class="first col-12 col-sm-6 col-lg-4 wow fadeInUp">
 
                             <p class="text-medium-big">
                                 <b>Sobre a gente</b>
@@ -18,7 +18,7 @@
 
                         </div>
 
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-delay=".1s">
+                        <!--div class="second col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-delay=".1s">
 
                             <p class="text-medium-big">
                                 <b>Nosso contato</b>
@@ -30,9 +30,9 @@
                                 WhatsApp: (41) 9 0000.0000
                             </p>
 
-                        </div>
+                        </div-->
 
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="third col-12 col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".1s">
 
                             <p class="text-medium-big">
                                 <b>Onde estamos</b>
@@ -42,12 +42,12 @@
                                 Fabrica di Chocolate Ltda - ME <br />
                                 CNPJ: 15.258.680/0001-15 <br />
                                 Av Paulo Graciano, 15 <br />
-                                Cidade Uberlândia
+                                Joinville / SC
                             </p>
 
                         </div>
 
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="fourth col-12 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
 
                             <p class="text-medium-big">
                                 <b>Visite nossos quiosques</b>
