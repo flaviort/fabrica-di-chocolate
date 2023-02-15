@@ -116,11 +116,11 @@
 										<div class="wrapper">
 
 											<p class="text-bigger">
-												+<span data-value="20">20</span>
+												+<span data-value="35">35</span>
 											</p>
 
 											<p class="text-medium">
-												Franquia com mais de 20 prêmios nacionais
+												Mais de 35 toneladas de fondue por mês
 											</p>
 
 										</div>
@@ -266,7 +266,7 @@
 				</section>
 
 				<section id="cards">
-					<div class="container container-big">
+					<div class="container">
 						<div class="row">
 							<div class="col-12">
 
@@ -423,7 +423,7 @@
 
 					<div class="bg wow fadeIn"></div>
 
-					<div class="container container-big">
+					<div class="container">
 						<div class="row">
 							<div class="col-12">
 
@@ -711,8 +711,239 @@
 					</div>
 				</section>
 
+				<section id="awards">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<h2 class="lozenge-title text-bigger wow fadeInUp">
+
+									<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+									<span>
+										Nossas conquistas
+									</span>
+
+									<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+								</h2>
+
+								<div class="timeline">
+									<div class="row">
+
+										<div class="col-sm-6 col-lg-4 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2004
+													</p>
+
+													<p class="text-medium desc">
+														Foi criada a empresa Fábrica di Chocolate em Joinville / SC.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-lg-4 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2005
+													</p>
+
+													<p class="text-medium desc">
+														Requerimento de registro de marca e patente de equipamentos no INPI.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-push-6 col-sm-6 col-lg-push-0 col-lg-4 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2006
+													</p>
+
+													<p class="text-medium desc">
+														Associação a ABF e início das unidades franqueadas.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-pull-6 col-sm-6 col-lg-pull-0 col-lg-push-8 col-lg-4 col-xl-push-0 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2010
+													</p>
+
+													<p class="text-medium desc">
+														Iniciada a contribuição financeira com o corpo de bomobeiros voluntários de Joinville.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-lg-pull-0 col-lg-4 col-xl-push-9 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2011
+													</p>
+
+													<p class="text-medium desc">
+														Fundação Dom Cabral reconhece como a franquia com melhor desempenho internacional do segmento.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-lg-pull-8 col-lg-4 col-xl-push-3 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2012
+													</p>
+
+													<p class="text-medium desc">
+														Vencedor do prêmio lojista Alshop 2013.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-push-6 col-sm-6 col-lg-push-0 col-lg-4 col-xl-pull-3 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2013
+													</p>
+
+													<p class="text-medium desc">
+														Eleita pela Exame como uma das melhores franquias para investimento. Associação com a Abrina.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-pull-6 col-sm-6 col-lg-pull-0 col-lg-4 col-xl-pull-9 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2015
+													</p>
+
+													<p class="text-medium desc">
+														Vencedor do prêmio lojista Alshop 2015.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-lg-4 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2016
+													</p>
+
+													<p class="text-medium desc">
+														Prêmio ABF Design 2016.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-lg-push-8 col-lg-4 col-xl-push-0 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap">
+
+													<p class="text-bigger year">
+														2022
+													</p>
+
+													<p class="text-medium desc">
+														Selo ABF Excelência em Franchising 2022.
+													</p>
+
+													<?php echo file_get_contents("assets/svg/lozenge.svg"); ?>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-push-6 col-sm-6 col-lg-push-0 col-lg-4 col-xl-3">
+
+											<div class="box wow fadeIn">
+												<div class="wrap last">
+
+													<p class="text-big">
+														A história continua...
+													</p>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
 				<section id="headline">
-					<div class="container container-big">
+					<div class="container">
 						<div class="row">
 							<div class="col-12">
 
@@ -734,7 +965,7 @@
 				</section>
 
 				<section id="map">
-					<div class="container container-big">
+					<div class="container">
 						<div class="row">
 							<div class="col-12">
 
@@ -782,7 +1013,7 @@
 					</div>
 
 					<div class="content">
-						<div class="container container-big">
+						<div class="container">
 							<div class="row">
 								<div class="col-12">
 

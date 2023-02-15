@@ -65,32 +65,37 @@ $(document).ready(function() {
 		},
 		breakpoints: {
 			576: {
-				slidesPerView: 3,
-				spaceBetween: 20,
+				slidesPerView: 2,
+				spaceBetween: 15,
+				centeredSlides: true,
 			},
 			768: {
-				slidesPerView: 4,
+				slidesPerView: 3,
 				spaceBetween: 20,
+				centeredSlides: true,
 			},
 			993: {
-				slidesPerView: 5,
-				spaceBetween: 25,
+				slidesPerView: 4,
+				spaceBetween: 20,
+				centeredSlides: false,
 			},
-			1201: {
-				slidesPerView: 6,
-				spaceBetween: 30,
+			1360: {
+				slidesPerView: 4,
+				spaceBetween: 20,
+				centeredSlides: false,
 			}
 		}
 	});
 
 	// testimonials slider
 	var testimonials_slider = new Swiper ('.testimonials-slider', {
-		slidesPerView: 1,
-		//loop: true,
+		slidesPerView: 'auto',
+		loop: true,
 		centeredSlides: true,
+		observeParents: true,
+		watchSlidesProgress: true,
 		simulateTouch: true,
 		allowTouchMove: true,
-		effect: 'slide',
 		spaceBetween: 15,
 		slideToClickedSlide: true,
 		autoplay: {
@@ -99,11 +104,27 @@ $(document).ready(function() {
 		breakpoints: {
 			576: {
 				spaceBetween: 20,
+				slidesPerView: 1.25,
+				loopedSlides: 2,
+				centeredSlides: true,
+			},
+			768: {
+				spaceBetween: 20,
 				slidesPerView: 2,
+				loopedSlides: 3,
+				centeredSlides: true,
+			},
+			993: {
+				spaceBetween: 20,
+				slidesPerView: 2.75,
+				loopedSlides: 3,
+				centeredSlides: false,
 			},
 			1201: {
-				spaceBetween: 30,
-				slidesPerView: 3,
+				spaceBetween: 20,
+				slidesPerView: 3.5,
+				loopedSlides: 4,
+				centeredSlides: false,
 			}
 		}
 	});

@@ -1,5 +1,5 @@
 <section id="footer">
-    <div class="container container-big">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 
@@ -41,7 +41,6 @@
                             <p>
                                 Fabrica di Chocolate Ltda - ME <br />
                                 CNPJ: 15.258.680/0001-15 <br />
-                                Av Paulo Graciano, 15 <br />
                                 Joinville / SC
                             </p>
 
@@ -54,7 +53,7 @@
                             </p>
                             
                             <p>
-                                AC / AM / BA / CE / DF / ES / GO / MA / MG / MT / PA / PB / PE / PR / RJ / RN / RO / RS / SC
+                                AC / AM / BA / CE / DF / ES / GO / MA / MG / MT / PA / PB / PE / PR / RJ / RN / RO / RS / SC / SP
                             </p>
 
                         </div>
