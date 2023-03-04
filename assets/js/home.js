@@ -165,3 +165,39 @@ $(document).ready(function() {
 	});
 
 });
+
+if ($(".box-stores").length > 0) {
+	$('.form-control').keyup(function () {
+		var inputs = ($('.form-control'));
+		searchByColumn(inputs);
+	});
+
+	function searchByColumn(inputs) {
+		$('.box-stores #store-names > .row').removeClass('hide');
+		var table = $('#store-names');
+		inputs.each(function () {
+			var idx = $(this).parent().index();
+			var searchVal = $(this).val();
+			if (searchVal != "") {
+				table.find('.row').not('.hide').each(function (index, row) {
+					var allDataPerRow = $(row).find('p').eq(idx);
+					if (allDataPerRow.length > 0) {
+						var found = false;
+						allDataPerRow.each(function (index, p) {
+							var regExp = new RegExp(searchVal, "i");
+							if (regExp.test($(p).text())) {
+								found = true;
+								return false;
+							}
+						});
+						if (found === true) {
+							$(row).removeClass('hide');
+						} else {
+							$(row).addClass('hide');
+						}
+					}
+				});
+			}
+		});
+	}
+}
