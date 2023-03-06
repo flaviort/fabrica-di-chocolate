@@ -689,10 +689,12 @@ body.home {
                                 }
 
                                 .text {
-                                    display: -webkit-box;
+                                    display: block;
                                     -webkit-line-clamp: 4;
                                     -webkit-box-orient: vertical;
                                     overflow: hidden;
+                                    max-height: 150px;
+                                    position: relative;
 
                                     @media #{$mq-sm-min} {
                                         -webkit-line-clamp: 6;

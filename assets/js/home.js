@@ -129,6 +129,11 @@ $(document).ready(function() {
 		}
 	});
 
+	// fix for safari
+	setTimeout(function(){
+		$('#testimonials .testimonials-slider .box .desc .text').css('display', '-webkit-box');
+	}, 300)
+
 	// show / hide map list
 	$('#map .toggle .open').click(function(){
 		$(this).fadeOut(function(){
