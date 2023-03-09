@@ -1,16 +1,50 @@
 <div class="box text-medium box-stores">
 
     <div class="search-row">
-        <div class="form-line">
+     <div class="form-line">
             <div class="input-wrap">
-                <input type="text" class="input form-control" placeholder="Pesquise aqui pelo nome da loja..." />
+                
+                <select name="Selecione o estado" required class="input select">
+                    <option value="" selected disabled>Selecione o estado</option>
+                    <option value="Todos">Todos</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas" disabled>Alagoas</option>
+                    <option value="Amapá" disabled>Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal" disabled>Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão" disabled>Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul" disabled>Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí" disabled>Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima" disabled>Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe" disabled>Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+
+                <?php echo file_get_contents("assets/svg/angle-down.svg"); ?>
+
             </div>
         </div>
     </div>
 
     <div id="store-names">
 
-        <div class="row">
+        <div class="row" data-state="Acre">
             
             <div class="col-lg-4">
                 <p>
@@ -32,7 +66,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Amazonas">
             
             <div class="col-lg-4">
                 <p>
@@ -54,7 +88,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Bahia">
             
             <div class="col-lg-4">
                 <p>
@@ -76,11 +110,11 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Bahia">
             
             <div class="col-lg-4">
                 <p>
-                    <b>Edif. Shopping Paralela</b>
+                    <b>Shopping Paralela</b>
                 </p>
             </div>
 
@@ -98,7 +132,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Bahia">
             
             <div class="col-lg-4">
                 <p>
@@ -120,7 +154,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Ceará">
             
             <div class="col-lg-4">
                 <p>
@@ -142,7 +176,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Ceará">
             
             <div class="col-lg-4">
                 <p>
@@ -164,7 +198,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Ceará">
             
             <div class="col-lg-4">
                 <p>
@@ -186,7 +220,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Ceará">
             
             <div class="col-lg-4">
                 <p>
@@ -208,7 +242,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Ceará">
             
             <div class="col-lg-4">
                 <p>
@@ -230,7 +264,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Espírito Santo">
             
             <div class="col-lg-4">
                 <p>
@@ -252,7 +286,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Goiás">
             
             <div class="col-lg-4">
                 <p>
@@ -274,7 +308,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Goiás">
             
             <div class="col-lg-4">
                 <p>
@@ -284,7 +318,7 @@
 
             <div class="col-lg-3">
                 <p>
-                    Goiânia - Goiás
+                    Goiás
                 </p>
             </div>
 
@@ -296,7 +330,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Minas Gerais">
             
             <div class="col-lg-4">
                 <p>
@@ -318,7 +352,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Minas Gerais">
             
             <div class="col-lg-4">
                 <p>
@@ -340,7 +374,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Minas Gerais">
             
             <div class="col-lg-4">
                 <p>
@@ -362,7 +396,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Mato Grosso">
             
             <div class="col-lg-4">
                 <p>
@@ -384,7 +418,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Mato Grosso">
             
             <div class="col-lg-4">
                 <p>
@@ -406,7 +440,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Mato Grosso">
             
             <div class="col-lg-4">
                 <p>
@@ -428,7 +462,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Minas Gerais">
             
             <div class="col-lg-4">
                 <p>
@@ -450,7 +484,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Pará">
             
             <div class="col-lg-4">
                 <p>
@@ -472,7 +506,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Pará">
             
             <div class="col-lg-4">
                 <p>
@@ -494,7 +528,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraíba">
             
             <div class="col-lg-4">
                 <p>
@@ -516,7 +550,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraíba">
             
             <div class="col-lg-4">
                 <p>
@@ -538,7 +572,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Pernambuco">
             
             <div class="col-lg-4">
                 <p>
@@ -560,7 +594,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Pernambuco">
             
             <div class="col-lg-4">
                 <p>
@@ -582,7 +616,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -604,7 +638,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -626,7 +660,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -648,7 +682,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -670,7 +704,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -692,7 +726,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -714,7 +748,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -736,7 +770,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -758,7 +792,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -780,7 +814,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -802,7 +836,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Paraná">
             
             <div class="col-lg-4">
                 <p>
@@ -824,7 +858,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -846,7 +880,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -868,7 +902,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -890,7 +924,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -912,7 +946,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -934,7 +968,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -956,7 +990,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -978,7 +1012,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio de Janeiro">
             
             <div class="col-lg-4">
                 <p>
@@ -1000,7 +1034,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Norte">
             
             <div class="col-lg-4">
                 <p>
@@ -1022,7 +1056,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Norte">
             
             <div class="col-lg-4">
                 <p>
@@ -1044,7 +1078,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rondônia">
             
             <div class="col-lg-4">
                 <p>
@@ -1066,7 +1100,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rondônia">
             
             <div class="col-lg-4">
                 <p>
@@ -1088,7 +1122,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rondônia">
             
             <div class="col-lg-4">
                 <p>
@@ -1110,7 +1144,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Sul">
             
             <div class="col-lg-4">
                 <p>
@@ -1132,7 +1166,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Sul">
             
             <div class="col-lg-4">
                 <p>
@@ -1154,7 +1188,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Sul">
             
             <div class="col-lg-4">
                 <p>
@@ -1176,7 +1210,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Sul">
             
             <div class="col-lg-4">
                 <p>
@@ -1198,7 +1232,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Sul">
             
             <div class="col-lg-4">
                 <p>
@@ -1220,7 +1254,29 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Rio Grande do Sul">
+            
+            <div class="col-lg-4">
+                <p>
+                    <b>Gare Estação Gastronômica </b>
+                </p>
+            </div>
+
+            <div class="col-lg-3">
+                <p>
+                    Rio Grande do Sul
+                </p>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="https://instagram.com/fabricadichocolatepassofundo" target="_blank">
+                    @fabricadichocolatepassofundo
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row" data-state="Santa Catarina">
             
             <div class="col-lg-4">
                 <p>
@@ -1242,7 +1298,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1264,7 +1320,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1286,7 +1342,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1308,7 +1364,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1330,7 +1386,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1352,7 +1408,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1374,7 +1430,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1396,7 +1452,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1418,7 +1474,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1440,7 +1496,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1462,7 +1518,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1484,7 +1540,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1506,7 +1562,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1528,7 +1584,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1550,7 +1606,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="São Paulo">
             
             <div class="col-lg-4">
                 <p>
@@ -1572,7 +1628,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" data-state="Tocantins">
             
             <div class="col-lg-4">
                 <p>
