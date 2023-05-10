@@ -1134,6 +1134,11 @@
 				<script src="assets/js/framework.js"></script>
 				<script src="assets/js/home.js" defer></script>
 
+				<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W73682X"
+				height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+				<!-- End Google Tag Manager (noscript) -->
+
 			</footer>
 
 		</div>
