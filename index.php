@@ -1029,7 +1029,7 @@
 
 									</h2>
 
-									<form action="https://formsubmit.co/adm@fabricadichocolateoficial.com.br" id="contact-form" method="post" class="text-medium">
+									<form action="https://formsubmit.co/juridico@fabricadichocolateoficial.com.br" id="contact-form" method="post" class="text-medium">
 
 										<input type="hidden" name="_next" value="https://www.fabricadichocolateoficial.com.br/#contact-success">
 										<input type="text" name="_honey" style="display: none">
