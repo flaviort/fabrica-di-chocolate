@@ -312,7 +312,7 @@
             
             <div class="col-lg-4">
                 <p>
-                    <b>Portal Shopping Goiânia</b>
+                    <b>Shopping Passeio das Águas</b>
                 </p>
             </div>
 
@@ -323,8 +323,8 @@
             </div>
 
             <div class="col-lg-4">
-                <a href="https://instagram.com/fabricadichocolate.portalshop" target="_blank">
-                    @fabricadichocolate.portalshop
+                <a href="https://instagram.com/fabricadichocolate.passeio" target="_blank">
+                    @fabricadichocolate.passeio
                 </a>
             </div>
 
@@ -391,6 +391,28 @@
             <div class="col-lg-4">
                 <a href="https://instagram.com/fabricadichocolate.ipatinga" target="_blank">
                     @fabricadichocolate.ipatinga
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row" data-state="Minas Gerais">
+            
+            <div class="col-lg-4">
+                <p>
+                    <b>Shopping Del Rey</b>
+                </p>
+            </div>
+
+            <div class="col-lg-3">
+                <p>
+                    Minas Gerais
+                </p>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="https://instagram.com/fabricadichocolate.bh" target="_blank">
+                    @fabricadichocolate.bh
                 </a>
             </div>
 
@@ -1029,6 +1051,28 @@
             <div class="col-lg-4">
                 <a href="https://instagram.com/fabricadichocolate_topshopping" target="_blank">
                     @fabricadichocolate_topshopping
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row" data-state="Rio de Janeiro">
+            
+            <div class="col-lg-4">
+                <p>
+                    <b>Plaza Shopping Niterói</b>
+                </p>
+            </div>
+
+            <div class="col-lg-3">
+                <p>
+                    Rio de Janeiro
+                </p>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="https://instagram.com/fabricadichocolate.niteroi" target="_blank">
+                    @fabricadichocolate.niteroi
                 </a>
             </div>
 
